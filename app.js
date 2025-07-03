@@ -1,13 +1,4 @@
-function mostrarSeccion(seccion) {
-    document.getElementById('colores').style.display = 'none';
-    document.getElementById('animales').style.display = 'none';
-    document.getElementById('ingenio').style.display = 'none';
-    document.getElementById('pacman').style.display = 'none';
-    document.getElementById(seccion).style.display = 'block';
-    if (seccion === 'pacman') {
-        iniciarPacman(1);
-    }
-}
+
 
 // Función para reproducir el nombre del color con voz sintética
 function reproducirSonidoColor(color) {

@@ -30,7 +30,7 @@ class PacmanNivel extends Phaser.Scene {
     preload() {
         this.load.image('jugador', 'josefita.jpg');
         for (let i = 1; i <= 2; i++) {
-            this.load.audio('musica' + i, 'sonidos/musica' + i + '.mp3');
+            this.load.audio('musica' + i, 'musica' + i + '.mp3');
         }
         this.load.on('filecomplete', function (key, type) {
             console.log('Archivo cargado:', key, type);
